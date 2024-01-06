@@ -1,0 +1,62 @@
+{
+  "name": "reactjs-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ReactJS App Template",
+  "author": "Sulthon Abdul Malik",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "format": "prettier -w \"{src,test}/**/*.{html,css,scss,json,js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@loadable/component": "^5.15.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "chart.js": "^4.3.3",
+    "framer-motion": "^10.15.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "swiper": "^11"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/loadable__component": "^5.13.4",
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.1",
+    "sass": "^1.65.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "*.{html,css,scss,json,js,jsx,ts,tsx}": "prettier -w"
+  },
+  "keywords": [],
+  "repository": "git@github.com:ssamsara98/reactjs-app-template.git",
+  "bugs": "https://github.com/ssamsara98/reactjs-app-template/issues"
+}
